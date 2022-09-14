@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -8,8 +8,9 @@
 </head>
 <body>
     <div class="firstDiv">
-        <h1>Intro To Javascript</h1>
-        <h2>An object-oriented computer programming language commonly used to create interactive effects within web browsers.</h2>
+        <h1>Intro To JavaScript</h1>
+        <h2>What is JavaScript?</h2>
+        <!-- <h3>An object-oriented computer programming language commonly used to create interactive effects within web browsers.</h3> -->
         <a href="variables.html">Variables and basic syntax</a><br><br>
         <button class="hello">Hello World</button>
         <button id="createParagraph">CreateParagraph</button>
@@ -17,14 +18,14 @@
     
     <script>
         let hello = document.querySelector(".hello");
-        console.log(hello);
+        // console.log(hello);
         hello.addEventListener('click', funcHello);
         function funcHello () {
             console.log("Hello World");
         };
 
         let createParagraph = document.getElementById("createParagraph"); 
-        console.log(createParagraph);
+        // console.log(createParagraph);
         createParagraph.addEventListener('click', function() {
             console.log('paragraph');
             let paragraph = document.createElement("p");
@@ -34,6 +35,7 @@
             div1.appendChild(paragraph);
 
         })
+
     </script>
 </body>
 </html>
