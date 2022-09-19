@@ -24,11 +24,29 @@ function undef() {
 console.log(undef());
 
 const string = "Hello World";
-let num = 11;
 const boolean = true;
-let y;
+const null1  = null;
+let undefined1;
+let num = 11;
 
 //Hello World, the value 11 is not a true or undefined data type.
 
-console.log(string + ", the value " + num + " is not a " + boolean + " or " +  y + " data type.");
-console.log(`${string}, the value ${num} is not a ${boolean} or ${y} data type.`);
+console.log(string + ", the value " + num + " is not a " + boolean + " or " +  undefined1 + " data type.");
+console.log(`${string}, the value ${num} is not a ${boolean} or ${undefined1} data type.`);
+
+
+const arrayOfDatatypes = [string, boolean, null1, undefined1, num];
+console.log(arrayOfDatatypes);
+
+//undefined
+// let a;
+let a;
+for(let i = 0; i < 6; i++) {
+    if(i === 5) {
+        let a = 1;
+        console.log(a);
+    }else {
+        console.log(i);
+    };   
+};
+console.log(a);

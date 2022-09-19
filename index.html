@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Intro To Javascript</title>
 </head>
 <body>
@@ -11,14 +12,21 @@
         <h1>Intro To JavaScript</h1>
         <h2>What is JavaScript?</h2>
         <!-- <h3>An object-oriented computer programming language commonly used to create interactive effects within web browsers.</h3> -->
-        <a href="variables.html">Variables and basic syntax</a><br><br>
+        
+        <ul>
+            <li><a href="variables.html">Variables, Syntax, Data Types</a></li>
+            <li><a href="flowControlStructures.html">Flow Control Structures, Operators</a></li>
+            <li><a href="functions.html">Functions</a></li>
+            <li><a href="objects.html">Objects</a></li>
+        </ul>
         <button class="hello">Hello World</button>
         <button id="createParagraph">CreateParagraph</button>
     </div>
     
     <script>
+        
+        // console.log("Hello World");
         let hello = document.querySelector(".hello");
-        // console.log(hello);
         hello.addEventListener('click', funcHello);
         function funcHello () {
             console.log("Hello World");
@@ -27,9 +35,9 @@
         let createParagraph = document.getElementById("createParagraph"); 
         // console.log(createParagraph);
         createParagraph.addEventListener('click', function() {
-            console.log('paragraph');
+            // console.log('paragraph');
             let paragraph = document.createElement("p");
-            console.log(paragraph);
+            // console.log(paragraph);
             paragraph.innerHTML = "This is how we create text on a web page."
             let div1 = document.querySelector(".firstDiv");
             div1.appendChild(paragraph);
