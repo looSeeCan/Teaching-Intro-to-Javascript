@@ -50,3 +50,19 @@ for(let i = 0; i < 6; i++) {
     };   
 };
 console.log(a);
+
+
+const numArray = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+    function forFunction() {
+        for(let i = 0; i < numArray.length; i++) {
+            if(i === 0) {
+                console.log("true:", i);
+            }else {
+                console.log("false:", i);
+            };
+            
+        };
+    };
+
+    forFunction();
+// console.log(forFunction());

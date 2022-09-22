@@ -4,4 +4,6 @@ of these concepts more in depth, during the week.
 Dont worry about the oop part, that's a little advanced. And for real as far as programing goes, we probably wont even get to those concepts. All my coders in here, that
 will be up to you if you want to get that far. 
 
-Show the buttons and speak about how it pertains to javascript.
+Show the buttons and speak about how it pertains to javascript. Click the button. So whats going on here. talk about the console. What's the console for?
+
+Go to Variables.
