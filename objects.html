@@ -7,9 +7,114 @@
     <title>Objects</title>
 </head>
 <body>
-    <h1>Objects</h1>
+    <h1 id="heading">Objects</h1>
 
     <script>
+
+        "use strict"
+
+        /// global scope /// procedural. where variables and functions
+        const firstName = "Lucycan";
+        const lastName = "Ly";
+        const age = 43;
+        const gender = "male"
+        const ethnicity = "Hmong";
+        const job = "TechFellow @ i.c.stars |*";
+        // const userName = "shhssl"
+        // function greeting() {
+        //     console.log(
+        //         `Hello World, My name is ${firstName} and I am ${age}. I am the ${job}`
+        //     )
+        //     const heading = document.getElementById("heading");
+        //     const y = heading.textContent = `Hello World, My name is ${firstName} and I am ${age}. I am the ${job}`
+        // };
+
+        // greeting();
+        console.log(firstName)
+
+        let person = {
+            userName: "John", ///key: value
+            displayName: "William",
+            age: 18 ,
+            gender: "female" ,
+            ethnicity: "Martian",
+            job: "Therapist",
+            
+            greeting: function() {
+                console.log(
+                `Hello World, My name is ${this.userName} and I am ${this.age}. I am the ${this.job}`
+            )
+            const heading = document.getElementById("heading");
+            const y = heading.textContent = `Hello World, My name is ${firstName} and I am ${age}. I am the ${job}`
+            }
+
+        };
+
+
+        console.log(person.firstName, person.lastName);
+        console.log(person.age)
+        console.log(person)
+
+        person.greeting();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // let person = {/// encapsulation
+        //     firstName1: "Lucycan", /// property = key: value
+        //     lastName1: "Ly" ,
+        //     age1: 43,
+        //     gender1: "Male",
+        //     ethnicity1: "Hmong",
+        //     job1: "TechFellow @ i.c.stars |*",
+
+        //     greeting: function() {/// methods
+        //         console.log(`Hello World, my name is ${this.firstName1}. I am the ${this.job1}`);
+        //     },
+
+        //     arr: [1, 2, 3, 4, 5, 6, 7, 8, 9],
+        // };
+
+        // /// how do we access
+        // console.log();
+
+        // console.log(
+        //     person.firstName1, 
+        //     person.lastName1, 
+        //     person.age1, 
+        //     person.gender1,
+        //     person.ethnicity1,
+        //     person["job1"],
+        //     person.greeting(),
+        //     person.arr,
+        // );
+
+
+        // for(let key in person) {
+        //     console.log(person[key]);
+        // };
+
+
+
+
+
+
+
+
+
+
+
 
         // const string = "Hello World";
         // const boolean = false;
