@@ -9,7 +9,7 @@
     </head>
     <body>
         <div class="firstDiv">
-            <h1>Intro To JavaScript</h1>
+            <h1 style="text-decoration: underline">Intro To JavaScript</h1>
             <h2>What is JavaScript?</h2>
             <h3>An object-oriented computer programming language commonly used to create interactive effects within web browsers.</h3>
             
@@ -23,26 +23,26 @@
             <button id="createParagraph">CreateParagraph</button>
         </div>
         
-        <script>
+        <script src="./index.js">
             
-            // console.log("Hello World");
-            let hello = document.querySelector(".hello");
-            hello.addEventListener('click', funcHello);
-            function funcHello () {
-                console.log("Hello World");
-            };
+            // // console.log("Hello World");
+            // let hello = document.querySelector(".hello");
+            // hello.addEventListener('click', funcHello);
+            // function funcHello () {
+            //     console.log("Hello World");
+            // };
 
-            let createParagraph = document.getElementById("createParagraph"); 
-            // console.log(createParagraph);
-            createParagraph.addEventListener('click', function() {
-                // console.log('paragraph');
-                let paragraph = document.createElement("p");
-                // console.log(paragraph);
-                paragraph.innerHTML = "This is how we create text on a web page."
-                let div1 = document.querySelector(".firstDiv");
-                div1.appendChild(paragraph);
+            // let createParagraph = document.getElementById("createParagraph"); 
+            // // console.log(createParagraph);
+            // createParagraph.addEventListener('click', function() {
+            //     // console.log('paragraph');
+            //     let paragraph = document.createElement("p");
+            //     // console.log(paragraph);
+            //     paragraph.innerHTML = "This is how we create text on a web page."
+            //     let div1 = document.querySelector(".firstDiv");
+            //     div1.appendChild(paragraph);
 
-            })
+            // })
 
         </script>
     </body>

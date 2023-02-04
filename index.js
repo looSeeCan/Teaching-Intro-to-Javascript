@@ -94,51 +94,140 @@
 
 
 
-console.log("DOG YEARS");
+// console.log("DOG YEARS");
 
-let myAge = 25;
-console.log(myAge);
-let earlyYears = 2;
-console.log(earlyYears);
-earlyYears *= 10.5
-console.log(earlyYears)
-let laterYears = myAge - 2
-console.log(laterYears);
+// let myAge = 25;
+// console.log(myAge);
+// let earlyYears = 2;
+// console.log(earlyYears);
+// earlyYears *= 10.5
+// console.log(earlyYears)
+// let laterYears = myAge - 2
+// console.log(laterYears);
 
-laterYears *= 4
+// laterYears *= 4
 
-console.log(laterYears);
+// console.log(laterYears);
 
-let myAgeInDogYears = earlyYears + laterYears;
+// let myAgeInDogYears = earlyYears + laterYears;
 
-console.log(myAgeInDogYears)
+// console.log(myAgeInDogYears)
 
-let myName = "tremane".toLowerCase()
-console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
+// let myName = "tremane".toLowerCase()
+// console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
 
-const alienList = [{
-    species:"martien",  
-    color:"purple", 
-    name: "gerred"
-},
-{
-    species:"predator",  
-    color:"green", 
-    name: "gurdis"
-}]
+// const alienList = [{
+//     species:"martien",  
+//     color:"purple", 
+//     name: "gerred"
+// },
+// {
+//     species:"predator",  
+//     color:"green", 
+//     name: "gurdis"
+// }]
 
-console.log(alienList);
-console.log(alienList[0], alienList[1])
+// console.log(alienList);
+// console.log(alienList[0], alienList[1])
 
-console.log(alienList[1].color);
-let x = alienList[1].color;
-console.log(x);
+// console.log(alienList[1].color);
+// let x = alienList[1].color;
+// console.log(x);
 
-console.log(x[1]);
+// console.log(x[1]);
 
-for(element of alienList) {
-    console.log(element);
-}
+// for(element of alienList) {
+//     console.log(element);
+// }
+
+
+///no brackets
+// const boolean = true;
+// if(boolean)
+//     console.log(true);
+// else
+//     console.log(false);
+
+// ///dice
+// let num  = Math.floor(Math.random() * 6 + 1);
+// console.log(num)
+
+// if(num === 1) {
+//     console.log("one");
+// }else if(num === 2) {   
+//     console.log("two");
+// }else if(num === 3) {
+//     console.log("three");
+// }else if(num === 4) {
+//     console.log("four");
+// }else if(num === 5) {
+//     console.log("five");
+// }else if(num === 6) {   
+//     console.log("six");
+// };
+
+
+// ///switch
+// console.log("switch");
+
+// console.log(num);
+// switch(num) {
+//     case 1:
+//         console.log("one", num);
+//         break;
+//     case 2:
+//         console.log("two", num);
+//         break;
+//     case 3:
+//         console.log("three", num);
+//         break;
+//     case 4:
+//         console.log("four:", num);
+//         break;
+//     case 5:
+//         console.log("five:", num);
+//         break;
+//     case 6:
+//         console.log("six:", num);
+//         break;
+//     default:
+//         console.log("This number is greater than 6:", num);    
+// };
+
+//1. Num
+//2. String
+//3. Null
+//4. Array
+//5. Object
+//6. Boolean
+
+
+let num = 25;
+console.log(num);
+
+//let or const
+
+const favoriteFood = ["pizza", "tacos", "fries"]
+console.log(favoriteFood);
+
+let foodGroup ={
+    food1: "pizza",
+    food2: "tacos",
+    food3: "fries",
+};
+
+
+console.log(foodGroup);
+
+let foodGroup1 = [{
+    name: "pizza",
+    slices: "3",
+    toppings: "sausage"
+}];
+
+console.log(foodGroup1[0].name)
+console.log(foodGroup1.name)
+
 
 
 

@@ -11,16 +11,18 @@
 
     <script>
 
-        "use strict"
+        // "use strict"
 
-        /// global scope /// procedural. where variables and functions
-        const firstName = "Lucycan";
-        const lastName = "Ly";
-        const age = 43;
-        const gender = "male"
-        const ethnicity = "Hmong";
-        const job = "TechFellow @ i.c.stars |*";
-        // const userName = "shhssl"
+        (() => {
+
+        //     /// global scope /// procedural. where variables and functions
+        //     const firstName = "Lucycan";
+        //     const lastName = "Ly";
+        //     const age = 43;
+        //     const gender = "male"
+        //     const ethnicity = "Hmong";
+        //     const job = "TechFellow @ i.c.stars |*";
+        //     const userName = "shhssl"
         // function greeting() {
         //     console.log(
         //         `Hello World, My name is ${firstName} and I am ${age}. I am the ${job}`
@@ -30,11 +32,15 @@
         // };
 
         // greeting();
-        console.log(firstName)
+        // console.log(firstName)
+
+        })();
+
+        (() => {
 
         let person = {
-            userName: "John", ///key: value
-            displayName: "William",
+            firstName: "John", ///key: value
+            lastName: "William",
             age: 18 ,
             gender: "female" ,
             ethnicity: "Martian",
@@ -42,20 +48,33 @@
             
             greeting: function() {
                 console.log(
-                `Hello World, My name is ${this.userName} and I am ${this.age}. I am the ${this.job}`
-            )
-            const heading = document.getElementById("heading");
-            const y = heading.textContent = `Hello World, My name is ${firstName} and I am ${age}. I am the ${job}`
-            }
+                    `Hello World, My name is ${this.firstName} and I am ${this.age}. I am a ${this.job}`
+                    )
+                    const heading = document.getElementById("heading");
+                    const y = heading.textContent = `Hello World, My name is ${this.firstName} and I am ${this.age}. I am a ${this.job}`
+                }
+            };
+            
+            console.log(person.firstName, person.lastName);
+            person.greeting();
 
-        };
+            /// TODO: bracket notation. something about if you know ahead of time what you want to access, you use the .notation
+            /// and something about if there is name coming from a form on a text field you can use bracket notation, but both works below. 
+            const field = "firstName"; /// so if this textField is the firstName field on a form
+            console.log(field);
+            person[field] = "Sheng";
+            console.log(person);
+            person.field = "Ricki";
+            console.log(person);
 
+            /// object destructuring
+            const {firstName, lastName, age} = person;
+            console.log(firstName);
 
-        console.log(person.firstName, person.lastName);
-        console.log(person.age)
-        console.log(person)
+            const {firstName: fn} = person; /// renaming in object destructuring
+            console.log(fn);
 
-        person.greeting();
+        })();
 
 
 
