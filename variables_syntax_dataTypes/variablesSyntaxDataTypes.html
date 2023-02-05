@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <title>Variables</title>
+</head>
+<body>
+    <div>
+        <h1>Variables, Syntax, Data types</h1>
+        <h3>Mathematics - a quantity which during a calculation is assumed to vary or be capable of varying in value.</h3>
+        <h3>Computing - a data item that may take on more than one value during the runtime of a program.</h3>
+        <h3>Syntax - Syntax is the set of rules that define what the various combinations of symbols and words mean. This tells the computer how to read the code.</h3>
+        <h3>Data Types: String, Boolean, Number, Null, Undefined, Object, Symbol</h3>
+    </div>
+
+    <script>
+        /// syntax is basically the way we write the code.
+        /// Understanding data types in JavaScript is essential for writing 
+            ///efficient, readable, and maintainable code. It helps to prevent errors, makes your code more readable, and can improve 
+            ///performance.
+        /// string, boolean, number, null, undefined, object, symbol
+            /// example of understanding data types:
+                // const y = 5; const x = "5";
+                // console.log(y + 5); console.log(x + 5); console.log(typeof (x + 5));
+        /// let and const are key words to declare variables. static, dynamic
+        ///variable declaration. Variables are containers for storing data. camelCase
+
+        
+        // /1. const stringVariable = "Hello World";//keyword (const), identifier(string), assignment operator(=), value(Hello World), semicolon(they are read and used y the compiler to distinguish between seperate statements)
+        
+        /// const stringNameVariable = "Lucycan"
+
+        ///log each variable to console. Talk about console.
+        
+        ///2. const booleanVariable = true; /// falsy truthy, falsy: false, 0, "", null, undefined, NaN
+        
+        ///3. const nullVariable = null;
+
+        ///4. let undefinedVariable1;
+        
+        ///5. const num = 44;
+
+        ///6. const objVariable = {firstName: "Lucycan", lastName: "Ly"};
+        
+        ///7. symbol
+            ///Symbols provide a way to create unique values that can be used as property keys and are useful when you want to 
+                ///create private properties or define custom data structures. By using Symbols, you can ensure that your code 
+                ///jremains more maintainable and less prone to bugs, as it reduces the risk of naming conflicts and accidental 
+                ///property modifications.
+
+        /// console.log(stringVariable + "," + " My name is " + stringNameVariable + " and I am " + num + " years old.");
+        /// console.log(`${stringVariable}, My name is ${stringNameVariable} and I am ${num} years old`);
+        
+        ///null
+        //const null1 = null;//suggests that the variable is empty and have a value later. Null will never be found anywhere unless a programmer specifically returned null
+        //When defining a variable that is meant to later hold an object, it is advisable to initialize the variable to null as oppposed to anything else.
+        //that way you can explicitly check for the value null to determine if the variable has been fileed with an object reference at a later time.
+        
+        ///undefined
+        //const y;//this declaration is not possible because the point of declaring an undefined is that you eventually want to define it. You can not define it in the future if it is a const
+        //let undefined1;//a variable that has not been assigned a value is of type undefined. A method or statement also reyurns undefined if the variable that is being evaluated does not have an
+        //console.log(x);//assigned value. A function returns undefined if a value was not returned. An example of undefined is that: a value might not contain a value and you may want to
+        //use the password example for undefined
+        
+    </script>
+</body>
+</html>

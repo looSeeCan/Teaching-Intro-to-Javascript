@@ -1,10 +1,31 @@
 
-We are just going to do an overview bascially guys alright. Everybody's pretty new to these concepts, so, don't worry about trying to keep up. We are gonna go thru some
-of these concepts more in depth, during the week.
 
-Dont worry about the oop part, that's a little advanced. And for real as far as programing goes, we probably wont even get to those concepts. All my coders in here, that
-will be up to you if you want to get that far. 
+/////////////
 
-Show the buttons and speak about how it pertains to javascript. Click the button. So whats going on here. talk about the console. What's the console for?
+02/04/23 cycle12
+    I had files all over the place, so I created some folders and organized acoordingly. I want to start from the variables_syntax
+        and use the same example thru out the whole lesson, gradually evolving the example(s) as I go thru the lesson.
+        
+    Start on variables_syntax.... do all everything in the <script> tag for simplicity, finish all the pages, 
+    come back and do the buttons in the index.html page > script, then show how to connect the src.
+    give the assignment, talk about order of hierarchy for help.
 
-Go to Variables.
+    Thiking about using modules, but, that might be confusing. homework: rfp group to explain
+
+
+
+/////    
+OverView. Everybody's pretty new to these concepts, so, don't worry about trying to keep up. You can if you want to. 
+We are gonna go thru some of these concepts more in depth, during the week. Im going to keep it as simple as I can so we can keep the lecture flowing. 
+Questions out of scope. We can talk about it offline.
+
+    
+
+
+
+
+
+
+
+
+
