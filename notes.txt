@@ -10,7 +10,9 @@
     come back and do the buttons in the index.html page > script, then show how to connect the src.
     give the assignment, talk about order of hierarchy for help.
 
-    Thiking about using modules, but, that might be confusing. homework: rfp group to explain
+    Thiking about using modules, but, that might be confusing.
+     homework: rfp group to explain
+     remember to talk about the dom
 
 
 
