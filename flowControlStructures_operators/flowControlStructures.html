@@ -1,135 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="../styles.css">
-        <title>Flow Contol Structures</title>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="stylesheet" href="../styles.css">
+      <title>Flow Contol Structures</title>
     </head>
+
     <body>
-        <h1>Flow Control Structures</h1>
+      <h1>Flow Control Structures</h1>
+
+      <div>
+        <h2>Operators: +, -, *, /, **, %, =, ==, ===, <, >, <=, >=, !==, &&, ||, ++, --</h2>
+      </div>
+
+      <div>
+        <h2>Conditionals</h2>
+        <ul>
+            <li>if statement</li>
+            <li>if...else statement</li>
+            <li>switch</li>
+        </ul>
+      </div>
+
+      <div>
+        <h2>Loops</h2>
+        <ul>
+            <li>for</li>
+            <li>for/in</li>
+            <li>for/of</li>
+            <li>while</li>
+            <li>do/while</li>
+        </ul>
+      </div>
         
-        <div>
-            <h2>Operators: +, -, *, /, **, %, =, ==, ===, <, >, <=, >=, !==, &&, ||, ++, --</h2>
-        </div>
+
+      <script>
+
+        ///1. const stringVariable = "Hello World";//keyword (const), identifier(string), assignment operator(=), value(Hello World), semicolon(they are read and used y the compiler to distinguish between seperate statements)
+        const stringVariable = "Hello World";
+        console.log(stringVariable);
+        /// const stringNameVariable = "Lucycan"
+        const stringNameVariable = "Lucycan";
+        console.log(stringNameVariable);
+        ///2. const booleanVariable = true;
+        const booleanVariable = true;
+        console.log(booleanVariable);
+        ///3. const null1 = null;
+        const nullVariable = null;
+        console.log(nullVariable);
+        ///4. let undefinedVariable1;
+        let undefinedVariable;
+        console.log(undefinedVariable);
+        ///5. const num = 44;
+        const num = 44;
+        console.log(num);
+        ///6. const objVariable = {firstName: "Lucycan", lastName: "Ly"};
+        const objVariable = {
+            firstName: "Lucycan",
+            lastName: "Ly"
+        };
+        console.log(objVariable);
+        ///7. symbol
+            ///Symbols provide a way to create unique values that can be used as property keys and are useful when you want to 
+                ///create private properties or define custom data structures. By using Symbols, you can ensure that your code 
+                ///jremains more maintainable and less prone to bugs, as it reduces the risk of naming conflicts and accidental 
+                ///property modifications.
+      /////////////////////////////
         
-        <div>
-            <h2>Conditionals</h2>
-            <ul>
-                <li>if statement</li>
-                <li>if...else statement</li>
-                <li>switch</li>
-            </ul>
-        </div>
+        /// Operators
+        
+        console.log(stringVariable + "," + " My name is " + stringNameVariable + " and I am " + num + " years old.");
+        console.log(num + 2);
+        console.log(num - 2);
+        console.log(num * 2);
+        console.log(num / 2);
+        console.log(num ** 2);
+        console.log(num % 3);
 
-        <div>
-            <h2>Loops</h2>
-            <ul>
-                <li>for</li>
-                <li>for/in</li>
-                <li>for/of</li>
-                <li>while</li>
-                <li>do/while</li>
-            </ul>
-        </div>
+        /// = vs ===
+        // let year = 2023;
+        // console.log(year);
+        // console.log(year === 2024);
+        // console.log(year = 2024);
+        // console.log(year);
+
+        /// Conditionals
+
+        // if () {
             
+        // }else {
 
-        <script>
+        // }
 
-            ///1. const stringVariable = "Hello World";//keyword (const), identifier(string), assignment operator(=), value(Hello World), semicolon(they are read and used y the compiler to distinguish between seperate statements)
-            const stringVariable = "Hello World";
-            console.log(stringVariable);
-            /// const stringNameVariable = "Lucycan"
-            const stringNameVariable = "Lucycan";
-            console.log(stringNameVariable);
-            ///2. const booleanVariable = true;
-            const booleanVariable = true;
-            console.log(booleanVariable);
-            ///3. const null1 = null;
-            const nullVariable = null;
-            console.log(nullVariable);
-            ///4. let undefinedVariable1;
-            let undefinedVariable;
-            console.log(undefinedVariable);
-            ///5. const num = 44;
-            const num = 44;
-            console.log(num);
-            ///6. const objVariable = {firstName: "Lucycan", lastName: "Ly"};
-            const objVariable = {
-                firstName: "Lucycan",
-                lastName: "Ly"
-            };
-            console.log(objVariable);
-            ///7. symbol
-                ///Symbols provide a way to create unique values that can be used as property keys and are useful when you want to 
-                    ///create private properties or define custom data structures. By using Symbols, you can ensure that your code 
-                    ///jremains more maintainable and less prone to bugs, as it reduces the risk of naming conflicts and accidental 
-                    ///property modifications.
-/////////////////////////////
-            
-            /// Operators
-            
-            console.log(stringVariable + "," + " My name is " + stringNameVariable + " and I am " + num + " years old.");
-            console.log(num + 2);
-            console.log(num - 2);
-            console.log(num * 2);
-            console.log(num / 2);
-            console.log(num ** 2);
-            console.log(num % 3);
+        if (num === 44) { /// 44 equals 44
+            console.log("this is true, num equals 44");
+        }else {
+            console.log("this is false");
+        };
 
-            /// = vs ===
-            // let year = 2023;
-            // console.log(year);
-            // console.log(year === 2024);
-            // console.log(year = 2024);
-            // console.log(year);
+        if (num !== 44) { /// 44 does not equal 44
+            console.log("this is true");
+        }else {
+            console.log("this is false, num does equal 44");
+        };
+        
+        if (num < 43) {
+            console.log("this is true" );
+        }else {
+            console.log("this is false, num is 44, 44 is greater than 43");
+        };
 
-            /// Conditionals
+        if (num >= 44) {
+            console.log("this is true, anything greater than 44 would be false");
+        }else {
+            console.log("this is false");
+        };
 
-            // if () {
-                
-            // }else {
+        ///Loops
 
-            // }
+        // for() {
 
-            if (num === 44) { /// 44 equals 44
-                console.log("this is true, num equals 44");
-            }else {
-                console.log("this is false");
-            };
+        // }
 
-            if (num !== 44) { /// 44 does not equal 44
-                console.log("this is true");
-            }else {
-                console.log("this is false, num does equal 44");
-            };
-            
-            if (num < 43) {
-                console.log("this is true" );
-            }else {
-                console.log("this is false, num is 44, 44 is greater than 43");
-            };
+        // for(let i = 0; i < 5; i++) {
+        //     console.log(stringNameVariable);
+        // }
 
-            if (num >= 44) {
-                console.log("this is true, anything greater than 44 would be false");
-            }else {
-                console.log("this is false");
-            };
-
-            ///Loops
-
-            // for() {
-
-            // }
-
-            // for(let i = 0; i < 5; i++) {
-            //     console.log(stringNameVariable);
-            // }
-
-            
-            ///TODO: Arrays here
-        </script>
+        
+        ///TODO: Arrays here
+      </script>
 
     </body>
 </html>
