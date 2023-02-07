@@ -21,31 +21,26 @@
                 <li><a target="blank" href="./objects/objects.html">Objects</a></li>
 
             </ul>
-            <button class="hello">Hello World</button>
-            <button id="createParagraph">CreateParagraph</button>
+            <button id="aboutMe">About Me</button>
+            <p class="paragraph"></p>
+            <img class="img" width="30%">
         </div>
         
-        <script> /// TODO: make this simpler
+        <script>
+            /// grab the element and assign it to a variable named aboutMe
+            const aboutMe = document.getElementById("aboutMe"); 
+
             
-            console.log("Hello World");
-            let hello = document.querySelector(".hello");
-            hello.addEventListener('click', funcHello);
-            function funcHello () {
-                console.log("Hello World");
-            };
-
-            let createParagraph = document.getElementById("createParagraph"); 
-            // console.log(createParagraph);
-            createParagraph.addEventListener('click', function() {
-                // console.log('paragraph');
-                let paragraph = document.createElement("p");
-                // console.log(paragraph);
-                paragraph.innerHTML = "This is how we create text on a web page."
-                let div1 = document.querySelector(".firstDiv");
-                div1.appendChild(paragraph);
-
+            aboutMe.addEventListener('click', function() { 
+                const paragraph = document.querySelector(".paragraph");
+                /// parageraph
+                paragraph.innerText = "Hello World My name is Lucycan Ly I am 44 years old."
+                ///img
+                const img = document.querySelector(".img");
+                // console.log(img);
+                img.src = "./assets/longHairDontCare.jpg";
             })
 
-        </script>
+        </script> 
     </body>
 </html>

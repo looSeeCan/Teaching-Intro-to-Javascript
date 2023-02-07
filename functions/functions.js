@@ -24,22 +24,13 @@ const objVariable = {
 console.log(objVariable);
 ///////////////////////////////////////////
 
+// function myfunction() {
+    /// scope
+// };
+
 /// function greeting return Hello World My name is Lucycan /// regular function, arrow
+
 /// function return num + 1
-
-const getSum = (num1, num2) => {
-    let x = getAnotherNum();
-    return  x + num1 + num2;
-};
-
-console.log(getSum(5,5));
-
-function getAnotherNum() {
-    return 5;
-};
-
-
-///test
 
 
 
