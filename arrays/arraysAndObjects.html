@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+    </head>
+    <body>
+      <h1>Arrays</h1>
+      <h2>What is an array?</h2>
+      <h3>In JavaScript, an array is a single variable that is used to store different elements. It is often used when we want to store a 
+          list of elements and access them by a single variable.
+      </h3>
+
+      <script>
+        document.title = "Arrays And Objects";
+
+        ///1. const stringVariable = "Hello World";//keyword (const), identifier(string), assignment operator(=), value(Hello World), semicolon(they are read and used y the compiler to distinguish between seperate statements)
+        const stringVariable = "Hello World";
+        console.log(stringVariable);
+        /// const stringNameVariable = "Lucycan"
+        const stringNameVariable = "Lucycan";
+        console.log(stringNameVariable);
+        ///2. const booleanVariable = true;
+        const booleanVariable = true;
+        console.log(booleanVariable);
+        ///3. const null1 = null;
+        const nullVariable = null;
+        console.log(nullVariable);
+        ///4. let undefinedVariable1;
+        let undefinedVariable;
+        console.log(undefinedVariable);
+        ///5. const num = 44;
+        const num = 44;
+        console.log(num);
+        ///6. const objVariable = {firstName: "Lucycan", lastName: "Ly"};
+        const objVariable = {
+            firstName: "Lucycan",
+            lastName: "Ly"
+        };
+        console.log(objVariable);
+        ///7. symbol
+            ///Symbols provide a way to create unique values that can be used as property keys and are useful when you want to 
+                ///create private properties or define custom data structures. By using Symbols, you can ensure that your code 
+                ///jremains more maintainable and less prone to bugs, as it reduces the risk of naming conflicts and accidental 
+                ///property modifications.
+      /////////////////////////////
+
+      
+        const arr = []; ///index and length
+
+        const numArr = [11, 22, 1, 4, 3, 6, 7, 20, 9];
+        
+        const stringArr = ["January", "February", "March"];
+
+        console.log(numArr.length -1);//index
+
+        const myVariablesArray = [
+          stringVariable, 
+          stringNameVariable, 
+          booleanVariable,
+          undefinedVariable,
+          nullVariable,
+          objVariable,
+        ];
+
+        ///.indexOf
+        const indexOf = numArr.indexOf(8);
+        console.log("indexOf(8):", indexOf);
+
+        // ///map() creates a new array with the results of calling a provided function on every element in the array
+        const x = numArr.map((element) => {
+          console.log(element, element + 1);
+          return element + 1;
+        });
+
+        console.log(x);
+        // ///filter() creates a new array with only elements that passes the condition inside the provided function
+        const y = numArr.map((element) => {
+          return element;
+        });
+
+        console.log(y);
+
+        console.log(numArr.sort((a, b) => a < b ? -1 : 1));
+
+        /// objects
+        // const employee = {}; /// empty object
+
+        const employee = {
+          name: "Lucycan",
+          position: "Program Tech Support",
+          department: "tech",
+          salary: 1000000
+        };
+
+        console.log(employee);
+
+        ///array of objects
+        let employees = [
+          {
+            name: "Lucycan Ly",
+            position: "Program Tech Support",
+            department: "Tech",
+            salary: 1000000,
+          },
+          {
+            name: "Jane Smith",
+            position: "Developer",
+            department: "IT",
+            salary: 85000
+          },
+          {
+            name: "Bob Johnson",
+            position: "Salesperson",
+            department: "Sales",
+            salary: 55000
+          }
+        ];
+
+        console.log(employees); ///table
+
+      </script>
+    </body>
+</html>
