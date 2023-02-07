@@ -5,12 +5,14 @@
 02/04/23 cycle12
     I had files all over the place, so I created some folders and organized acoordingly. I want to start from the variables_syntax
         and use the same example thru out the whole lesson, gradually evolving the example(s) as I go thru the lesson.
-        
+    remember to side by side the window    
     Start on variables_syntax.... do all everything in the <script> tag for simplicity, finish all the pages, 
     come back and do the buttons in the index.html page > script, then show how to connect the src.
     give the assignment, talk about order of hierarchy for help.
 
-    Thiking about using modules, but, that might be confusing. homework: rfp group to explain
+    Thiking about using modules, but, that might be confusing.
+     homework: rfp group to explain
+     remember to talk about the dom 
 
 
 
@@ -19,7 +21,8 @@ OverView. Everybody's pretty new to these concepts, so, don't worry about trying
 We are gonna go thru some of these concepts more in depth, during the week. Im going to keep it as simple as I can so we can keep the lecture flowing. 
 Questions out of scope. We can talk about it offline.
 
-    
+02/06/23
+    start on function and show the src=""
 
 
 
