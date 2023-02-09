@@ -25,6 +25,15 @@ Questions out of scope. We can talk about it offline.
     start on function and show the src=""
 
 
+02/09/2023
+    I did the Variables and Conditionals Day for the 13th. Imani was let go. So we lost 2 days of programming; Wed, and Thur.
+    The assignment on the index.html page:
+        I gave them an assignment of making an aboutMe page. The assignment on the first day was to  make an about me page which consisted of a button, paragraph and
+        an img. When the button is clicked the paragragh and img is shown on the page.
+        For Variables and Conditionals Day. The parts of the paragraph will be assigned to variables and will be used in a template literal. The img url will be assigned
+        to a variable also. An if statement will be written: if (paragragh.innerHtml) {} 
+
+
 
 
 
