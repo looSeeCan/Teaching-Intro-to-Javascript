@@ -50,24 +50,35 @@
 
       
         // const arr = []; ///index and length
+        const arr = [];
+        console.log(arr);
 
         // const numArr = [11, 22, 1, 4, 3, 6, 7, 20, 9];
+        const numArr = [11, 22, 1, 4, 3, 6, 7, 20, 9];
+        console.log(numArr);
         
         // const stringArr = ["January", "February", "March"];
-
+        const stringArr = ["January", "February", "March"];
+        console.log(stringArr[1] + " " + stringArr[2]);
+        console.log(stringArr);
         // console.log(numArr.length -1);//index
 
-        // const myVariablesArray = [
-        //   stringVariable, 
-        //   stringNameVariable, 
-        //   booleanVariable,
-        //   undefinedVariable,
-        //   nullVariable,
-        //   objVariable,
-        // ];
+        const myVariablesArray = [
+          stringVariable, 
+          stringNameVariable, 
+          booleanVariable,
+          undefinedVariable,
+          nullVariable,
+          objVariable,
+        ];
+
+        console.log(myVariablesArray);
 
         // ///.indexOf
         // const indexOf = numArr.indexOf(8);
+        const indexOf = numArr.indexOf(11);
+        console.log(indexOf);
+
         // console.log("indexOf(8):", indexOf);
 
         // // ///map() creates a new array with the results of calling a provided function on every element in the array
@@ -84,43 +95,43 @@
 
         // console.log(y);
 
-        // console.log(numArr.sort((a, b) => a < b ? -1 : 1));
+        console.log(numArr.sort((a, b) => a > b ? -1 : 1));
 
         // /// objects
         // // const employee = {}; /// empty object
 
-        // const employee = {
-        //   name: "Lucycan",
-        //   position: "Program Tech Support",
-        //   department: "tech",
-        //   salary: 1000000
-        // };
+        const employee = {
+          name: "Lucycan",
+          position: "Program Tech Support",
+          department: "tech",
+          salary: 1000000
+        };
 
-        // console.log(employee);
+        console.log(employee);
 
         // ///array of objects
-        // let employees = [
-        //   {
-        //     name: "Lucycan Ly",
-        //     position: "Program Tech Support",
-        //     department: "Tech",
-        //     salary: 1000000,
-        //   },
-        //   {
-        //     name: "Jane Smith",
-        //     position: "Developer",
-        //     department: "IT",
-        //     salary: 85000
-        //   },
-        //   {
-        //     name: "Bob Johnson",
-        //     position: "Salesperson",
-        //     department: "Sales",
-        //     salary: 55000
-        //   }
-        // ];
+        let employees = [
+          {
+            name: "Lucycan Ly",
+            position: "Program Tech Support",
+            department: "Tech",
+            salary: 1000000,
+          },
+          {
+            name: "Jane Smith",
+            position: "Developer",
+            department: "IT",
+            salary: 85000
+          },
+          {
+            name: "Bob Johnson",
+            position: "Salesperson",
+            department: "Sales",
+            salary: 55000
+          }
+        ];
 
-        // console.log(employees); ///table
+        console.table(employees); ///table
 
       </script>
     </body>

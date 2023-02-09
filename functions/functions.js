@@ -24,17 +24,33 @@ const objVariable = {
 console.log(objVariable);
 ///////////////////////////////////////////
 
+
+const x = 5;
+console.log(x)
+
 // function myfunction() {
     /// scope
 // };
+function myfunction() {
+    const y = 6 +3;
+    console.log(y);
+}
+
+myfunction();
+myfunction();
+myfunction();
+myfunction();
+myfunction();
+myfunction();
+myfunction();
+myfunction();
+myfunction();
+myfunction();
+myfunction();
+
+
 
 /// function greeting return Hello World My name is Lucycan /// regular function, arrow
 
 /// function return num + 1
-
-
-
-
-
-
 
