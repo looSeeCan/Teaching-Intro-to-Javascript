@@ -22,23 +22,36 @@
 
             </ul>
             <button id="aboutMe">About Me</button>
-            <p class="paragraph"></p>
-            <img class="img"  width="70%">
+            <p class="paragraph"></p> <!--this paragraph is empty-->
+            <img class="img"  width="30%">
         </div>
         
         <script>
             /// grab the element and assign it to a variable named aboutMe
-            const aboutMe = document.getElementById("aboutMe"); 
-
+            const aboutMe = document.getElementById("aboutMe");
+            /// parageraph
+            const paragraph = document.querySelector(".paragraph");
+            console.log(paragraph.innerText); /// show the empty tag which is falsy
             
             aboutMe.addEventListener('click', function() { 
-                const paragraph = document.querySelector(".paragraph");
-                /// parageraph
-                paragraph.innerText = "Hello World My name is Lucycan Ly I am 44 years old."
+                // const stringVariable = "Hello World"
+                // const stringNameVariable = "Lucycan";
+                // const num = 44;
+                // const imageSource = "./assets/longHairDontCare.jpg"; 
+                
+                // if(paragraph.innerText) {
+                //     console.log("The paragraph already has text");
+                // }else {
+                //     console.log(false);
+                //     paragraph.innerText = `${stringVariable} my name is ${stringNameVariable} and I am ${num}`;
+                // }
+
+                paragraph.innerText = "Hello World my name is Lucycan Ly";
                 ///img
                 const img = document.querySelector(".img");
                 // console.log(img);
-                img.src = "./assets/longHairDontCare.jpg";
+                img.src = "./assets/longHairDontCare.jpg"
+                // img.src = imageSource;
             })
 
         </script> 
