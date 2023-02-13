@@ -34,24 +34,20 @@
             console.log(paragraph.innerText); /// show the empty tag which is falsy
             
             aboutMe.addEventListener('click', function() { 
-                // const stringVariable = "Hello World"
-                // const stringNameVariable = "Lucycan";
-                // const num = 44;
-                // const imageSource = "./assets/longHairDontCare.jpg"; 
+                const stringVariable = "Hello World"
+                const stringNameVariable = "Lucycan";
+                const num = 44;
+                const imageSource = "./assets/longHairDontCare.jpg"; 
                 
-                // if(paragraph.innerText) {
-                //     console.log("The paragraph already has text");
-                // }else {
-                //     console.log(false);
-                //     paragraph.innerText = `${stringVariable} my name is ${stringNameVariable} and I am ${num}`;
-                // }
+                if(paragraph.innerText) {
+                    console.log("The paragraph already has text");
+                }else {
+                    console.log(false);
+                    paragraph.innerText = `${stringVariable} my name is ${stringNameVariable} and I am ${num}`;
+                }
 
-                paragraph.innerText = "Hello World my name is Lucycan Ly";
-                ///img
                 const img = document.querySelector(".img");
-                // console.log(img);
-                img.src = "./assets/longHairDontCare.jpg"
-                // img.src = imageSource;
+                img.src = imageSource;
             })
 
         </script> 

@@ -86,26 +86,40 @@
             
             // const concatonation = stringVariable + " my name is " + stringNameVariable + " and I am " + num + " years old";
             // console.log(concatonation);
-            
+            const concatonation = stringVariable + " my name is " + stringNameVariable + "and I amd " + num;
+            console.log(concatonation);
+
             // const templateLiteral = `${stringVariable} my name is ${stringNameVariable} and I am ${num} years old`;
-            // console.log(templateLiteral);
+            const templateLiteral = `${stringVariable} my name is ${stringNameVariable}`
+            console.log(templateLiteral);
 
             // const sum = num + 1;
             // console.log(sum);
+            const sum = num + 1;
+            console.log(sum);
             
             // // const product = sum * numVariable; /// 45 * 44
             // // console.log(product);
             
             // const numAndString = num + stringNameVariable
             // console.log(numAndString); /// what data type is this now?
+            const numAndString = `${num} ${stringNameVariable}`;
+            console.log(numAndString);
+            console.log(typeof numAndString);
             // console.log(typeof numAndString);
             // // const numAndString = `${stringVariable} ${numVariable}`;
             // // console.log(numAndString);
 
             // const myArray = [1, 2, 3, 4, 5];
             // console.log(myArray);
+
+            const myArray = [1, 2, 3, 4, 5];
+            console.log(myArray);
             
             // const myArrayPop = myArray.pop();
+            const myArrayPop = myArray.pop();
+            console.log(myArrayPop);
+            console.log(myArray);
             // console.log(myArrayPop);
             // console.log(myArray);
             
@@ -114,6 +128,12 @@
             //     return x;
             // };
 
+            function returnVariable() {
+                const x = "Lucycan is Awesome"
+                return x;
+            }
+            const y = returnVariable();
+            console.log(y)
             // const y = returnVariable();
             // console.log(y);
 
@@ -124,8 +144,17 @@
             // }else {
             //     console.log(false);
             // };
-            
-            // myArray.indexOf(3) === 2 ? console.log(true) : console.log(false);
+
+            if(myArray.indexOf(3) === 2) {
+
+                console.log(true)
+                alert("do something here");
+
+            }else {
+                console.log(false);
+            }
+
+            myArray.indexOf(3) === 2 ? console.log(true) : console.log(false);
 
             // /// if you want myArray to be less than four
             // let z;
