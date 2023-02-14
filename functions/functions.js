@@ -72,10 +72,11 @@ console.log(objVariable);
 
 /// grab the element and assign it to a variable named aboutMe
 
+
     // const aboutMe = document.getElementById("aboutMe");
     // /// parageraph
     // const paragraph = document.querySelector(".paragraph");
-    // console.log(paragraph.innerText); /// show the empty tag which is falsy
+    // console.log(paragraph); /// show the empty tag which is falsy
     
     // aboutMe.addEventListener('click', function() { 
     //     const stringVariable = "Hello World";
