@@ -19,3 +19,6 @@ Assignment:
         Use a conditional statement to check if the paragragh element is truthy. It is truthy if it has text inside it. If it does have text inside of it, a log to the console will say "The paragraph already has text". If it does not have text it is falsy, this is where your string that you turned into a template literal will execute. Everything on your page should be the same. All you did was assign some variables used the variables and wrote a conditional statement.
 
         Continue to style your page however you like.
+
+    02/14/2023
+        Encapsulate your code inside a function. Call the function, passing arguments so your function is reusable.
